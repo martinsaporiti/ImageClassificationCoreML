@@ -2,8 +2,8 @@
 
 App desarrollada para funcionar como template para poder inferir imágenes utilizando un modelo a través de COREML.
 Las imágenes pueden ser cargadas desde la librería del dispositivo o pueden ser tomadas medianten  la cámara.
-Inicialmente esta app incluye un modelo que permite inferir imágenes de flores: daisy, dandelion, roses, sunflowers y tulips.
-El modelo utilizado fue generado mediante el siguiente tfcoreml (https://github.com/tf-coreml/tf-coreml ).
+Inicialmente esta app incluye un modelo que permite inferir imágenes de flores: **daisy, dandelion, roses, sunflowers y tulips**.
+El modelo utilizado fue generado mediante ls siguiente librería [tfcoreml](https://github.com/tf-coreml/tf-coreml)
 Luego de la instalación que se explica en el link, se generó el siguiente script para poder realizar la conversión a CoreML:
 
 ```

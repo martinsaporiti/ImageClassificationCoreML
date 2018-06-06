@@ -20,5 +20,11 @@ tf_converter.convert(tf_model_path = 'tf_files/retrained_graph.pb',
 ```
 
 
+Para poder determinar el *output_feature_names* se utilizó el script inspect_pb.py que viene incluido en tfcoreml y además se incluye dentro de los fuentes de esta app.
+```
+python3 inspect_pb.py tf_files/retrained_graph.pb text_summary.txt
+```
+En el archivo generado (text_summary.txt) se debe buscar Softmax para poder deterinar el parámetro a enviar.
+
 
 

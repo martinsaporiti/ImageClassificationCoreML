@@ -15,6 +15,7 @@
 		29EB755420C84D4600493165 /* ImageExtensionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB755320C84D4600493165 /* ImageExtensionUtil.swift */; };
 		29EB755820C8596000493165 /* flowers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 29EB755720C8596000493165 /* flowers.mlmodel */; };
 		29EB755B20C861D100493165 /* inspect_pb.py in Resources */ = {isa = PBXBuildFile; fileRef = 29EB755A20C861D100493165 /* inspect_pb.py */; };
+		29EB755D20C8625200493165 /* convertToCoreML.py in Resources */ = {isa = PBXBuildFile; fileRef = 29EB755C20C8625200493165 /* convertToCoreML.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		29EB755720C8596000493165 /* flowers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = flowers.mlmodel; sourceTree = "<group>"; };
 		29EB755920C85ED000493165 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		29EB755A20C861D100493165 /* inspect_pb.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = inspect_pb.py; sourceTree = "<group>"; };
+		29EB755C20C8625200493165 /* convertToCoreML.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = convertToCoreML.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 				29EB754020C849B100493165 /* ImageClassificationCoreML */,
 				29EB753F20C849B100493165 /* Products */,
 				29EB755A20C861D100493165 /* inspect_pb.py */,
+				29EB755C20C8625200493165 /* convertToCoreML.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29EB754C20C849B200493165 /* LaunchScreen.storyboard in Resources */,
+				29EB755D20C8625200493165 /* convertToCoreML.py in Resources */,
 				29EB754920C849B200493165 /* Assets.xcassets in Resources */,
 				29EB754720C849B100493165 /* Main.storyboard in Resources */,
 				29EB755B20C861D100493165 /* inspect_pb.py in Resources */,
